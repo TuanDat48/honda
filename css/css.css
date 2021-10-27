@@ -11,18 +11,73 @@
 	font-family: Dairy-Cattle-Solid;
 }
 .bg{
-	width: 1920px ;
-	height: 1366px;
-	background-image: url('../img/bg.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	min-height: 100vh;
+	background: url('../img/bg.png') center;
+	background-size: 100% 100% ;
 }
 .bg-spin{
-	width: 1920px ;
-	height: 1366px;
-	background-image: url('../img/bgrd.png');
+	background: url('../img/bgrd2.png') center;
+	min-height: 100vh;
+	background-size: 100% 100% ;
+}
+@media screen and (min-width: 2346px) {
+  .bg{
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+  }
+  .bg-spin{
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  .form{
+  	width:460px;
+  }
+  
+}
+@media screen and (min-width: 1500px) {
+  .form{
+  	width: 530px;
+  }
+  .title-form-active{
+  	font-size: 21px !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .form{
+  	width: 330px;
+  }
+}
+@media screen and (max-width: 1600px) {
+	.result{
+	padding-top: 40px;
+		width: 1366px;
+}
+  #numberRandom{
+  letter-spacing: 175px !important;
+   padding-top: 66px!important;
+   font-size: 221px !important;
+   height: 371px;
+}
+}
+@media screen and (max-width: 1400px) {
+  #numberRandom{
+  	letter-spacing: 135px !important;
+  	padding-top:93px !important;
+	font-size: 174px !important;
+	background-size: 100% !important;
+	padding-left: 122px !important;
+}
+   .result{
+   	width: 1108px !important;
+   }
+}
+
+.form{
+	margin-top: 201px;
+	background: white;
+	height: 492px;
+	border-radius: 5px;
+	text-align: center;
 }
 .btn-honda{
 margin-top: 51px !important;
@@ -50,15 +105,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	width: 268px;
 margin-left: 26px;
 }
-.form{
-	margin-top: 201px;
-	background: white;
-	width: 530px;
-	height: 492px;
-	margin-left: 686px;
-	border-radius: 5px;
-	text-align: center;
-}
+
 .title-form-active{
 	text-align: center;
 	font-family:verdana;
@@ -75,9 +122,11 @@ margin-left: 26px;
 }
 .input{
 	background: #ebebeb;
-	width: 440px;
-	border: 5px;
 	height: 45px;
+	border: none;
+	width: 85%;
+	background: #ebebeb;
+	border-radius: 5px;
 }
 .outer-grow{
 	color:#fff;
@@ -106,17 +155,17 @@ margin-left: 26px;
 }
 .hr-login{
 	background: #810400;
-	width: 431px;
+	width: 80%;
    margin-top: 30px;
 }
 .hr-active{
 	background: #810400;
-	width: 509px;
+	width: 90%;
    
 }
 .btn-login{
 	margin-top: 10px;
-width: 440px;
+width: 90%;
   margin-top: 45px;
   letter-spacing: 6px;}.ramdon{
 margin-top: 37px;
@@ -130,10 +179,13 @@ margin-top: 37px;
 #numberRandom{
 	font-size: 261px;
    color: #e01a00;
-   letter-spacing: 212px;
-   padding-left: 191px;
-   margin-top: 80px;
+   letter-spacing: 152px;
+    padding-left: 140px; 
+   margin-top: 20px;
    font-family: Dairy-Cattle-Solid;
+   background: url('../img/random.png') center;
+   background-repeat: no-repeat;
+	background-size: 100%;
 }
 .btn-random{
 display: block;
@@ -149,12 +201,16 @@ display: block;
    font-family: agency-FB;
    letter-spacing: 3px;
 }
-input{
-	border: none;
-	width: 100%;
-	background: #ebebeb;
-	border-radius: 5px;
-}
+
 .result{
+	padding-top: 40px;
+		width: 1366px;
+}
+.results{
 	margin-top: 193px;
+}
+.title-form-note{
+	color: #7a9196;
+	font-size: ;
+	height: 60px;
 }
