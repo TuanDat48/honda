@@ -20,56 +20,101 @@
 	min-height: 100vh;
 	background-size: 100% 100% ;
 }
-@media screen and (min-width: 2346px) {
-  .bg{
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-  .bg-spin{
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-  .form{
-  	width:460px;
-  }
-  
+@media screen and (max-width: 2346px) {
+	.bg{
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.bg-spin{
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.form{
+		width:460px;
+	}
+	.btn-honda{
+		margin-top: 51px !important;
+	}
+
 }
 @media screen and (min-width: 1500px) {
-  .form{
-  	width: 530px;
-  }
-  .title-form-active{
-  	font-size: 21px !important;
-  }
+	.form{
+		width: 530px;
+	}
+	.title-form-active{
+		font-size: 21px !important;
+	}
 }
 @media screen and (max-width: 1300px) {
-  .form{
-  	width: 330px;
-  }
+	.form{
+		width: 330px;
+	}
 }
 @media screen and (max-width: 1600px) {
 	.result{
-	padding-top: 40px;
+		padding-top: 40px;
 		width: 1366px;
+	}
+	#numberRandom{
+		letter-spacing: 175px !important;
+		padding-top: 66px!important;
+		font-size: 221px !important;
+		height: 371px;
+	}
 }
-  #numberRandom{
-  letter-spacing: 175px !important;
-   padding-top: 66px!important;
-   font-size: 221px !important;
-   height: 371px;
+@media screen and (max-width: 1700px) {
+	#numberRandom{
+		letter-spacing: 135px !important;
+		padding-top:93px !important;
+		font-size: 174px !important;
+		background-size: 100% !important;
+		padding-left: 122px !important;
+	}
+	.btn-honda{
+		margin-top: 27px !important;
+		   height: 50px !important;
+   font-size: 16px !important;
+   width: 204px  !important;
+
+	}
+	.result{
+		width: 1108px !important;
+		margin-top: 92px !important;
+	}
+	.results{
+		margin-top: 92px !important;
+	}
+	.title-form-active{
+	font-size: 
+	15.5px !important;
 }
+.btn-random{
+	width: 410px !important;
+	height: 97px !important;
+	margin-top: -39px !important;
+	font-size: 52px !important;
 }
-@media screen and (max-width: 1400px) {
-  #numberRandom{
-  	letter-spacing: 135px !important;
-  	padding-top:93px !important;
-	font-size: 174px !important;
-	background-size: 100% !important;
-	padding-left: 122px !important;
+
+.title-form{
+	margin-top: 15px !important;
 }
-   .result{
-   	width: 1108px !important;
-   }
+.title-form-note{
+	height: 43px !important;
+	font-size: 12px !important;
+}
+.form{
+	margin-top: 120px !important;
+	height: 407px !important;
+	width: 385px !important;
+	}
+	.title-form{
+		font-size: 13px !important;
+	}
+	.button2{
+		width: 115px !important;
+		font-size: 14px !important;
+		height: 50px !important;
+	}
 }
 
 .form{
@@ -80,7 +125,6 @@
 	text-align: center;
 }
 .btn-honda{
-margin-top: 51px !important;
 	height: 60px;
 	transform: skew(-15deg);
 	padding-top: 13px;
@@ -88,8 +132,8 @@ margin-top: 51px !important;
 	margin: auto;
 	font-size: 22px;
 	font-family: verdana;
-background: #d33733;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background: #d33733;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .unlilne-link{
 	text-decoration: none !important;
@@ -103,7 +147,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 .btn-spin-bonus{
 	color: white;
 	width: 268px;
-margin-left: 26px;
+	margin-left: 26px;
 }
 
 .title-form-active{
@@ -149,68 +193,68 @@ margin-left: 26px;
 	letter-spacing: 1px
 }
 .title-form-login{
-    padding-top: 44px;
-    font-family:verdana ;
-    font-size: 24px;
+	padding-top: 44px;
+	font-family:verdana ;
+	font-size: 24px;
 }
 .hr-login{
 	background: #810400;
 	width: 80%;
-   margin-top: 30px;
+	margin-top: 30px;
 }
 .hr-active{
 	background: #810400;
 	width: 90%;
-   
+
 }
 .btn-login{
 	margin-top: 10px;
-width: 90%;
-  margin-top: 45px;
-  letter-spacing: 6px;}.ramdon{
-margin-top: 37px;
-   width: 1548px;
-   height: 395px;
-   background-image: url(../img/random.png);
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
+	width: 90% !important;
+	margin-top: 45px;
+	letter-spacing: 6px;}.ramdon{
+		margin-top: 37px;
+		width: 1548px;
+		height: 395px;
+		background-image: url(../img/random.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 
-}
-#numberRandom{
-	font-size: 261px;
-   color: #e01a00;
-   letter-spacing: 152px;
-    padding-left: 140px; 
-   margin-top: 20px;
-   font-family: Dairy-Cattle-Solid;
-   background: url('../img/random.png') center;
-   background-repeat: no-repeat;
-	background-size: 100%;
-}
-.btn-random{
-display: block;
-   width: 494px;
-   height: 131px;
-   margin-top: 19px;
-   font-size: 77px;
-   color: #ecd375;
-   padding: 6px 20px;
-   border: 1;
-   border-color: white;
-   background: #850c0d;
-   font-family: agency-FB;
-   letter-spacing: 3px;
-}
+	}
+	#numberRandom{
+		font-size: 261px;
+		color: #e01a00;
+		letter-spacing: 152px;
+		padding-left: 140px; 
+		margin-top: 20px;
+		font-family: Dairy-Cattle-Solid;
+		background: url('../img/random.png') center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.btn-random{
+		display: block;
+		width: 494px;
+		height: 131px;
+		margin-top: 19px;
+		font-size: 77px;
+		color: #ecd375;
+		padding: 6px 20px;
+		border: 1;
+		border-color: white;
+		background: #850c0d;
+		font-family: agency-FB;
+		letter-spacing: 3px;
+	}
 
-.result{
-	padding-top: 40px;
+	.result{
+		padding-top: 40px;
 		width: 1366px;
-}
-.results{
-	margin-top: 193px;
-}
-.title-form-note{
-	color: #7a9196;
-	font-size: ;
-	height: 60px;
-}
+	}
+	.results{
+		margin-top: 193px;
+	}
+	.title-form-note{
+		color: #7a9196;
+		font-size: ;
+		height: 60px;
+	}
